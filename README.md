@@ -2,6 +2,8 @@
 
 A simple and customizable OTP input component for Vue 3.
 
+![Vue3 OTP Preview](docs/Vue3OTP.png)
+
 ## ⚙️ Installation
 
 ### Install as a Package
