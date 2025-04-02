@@ -15,8 +15,8 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/vue3-otp.js",
-      "require": "./dist/vue3-otp.umd.cjs"
+      "import": "./dist/vue3-otp.es.js",
+      "require": "./dist/vue3-otp.cjs.js"
     }
   },
   "dependencies": {
