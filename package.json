@@ -1,0 +1,54 @@
+{
+  "name": "vue3-otp",
+  "version": "0.0.1",
+  "description": "A fully customizable, OTP (one-time password) input component built with Vue 3.x.",
+  "author": "Vardan Hayrapetyan <hayrapetyan.vardank@gmail.com>",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/vue3-otp-input.js",
+      "require": "./dist/vue3-otp-input.umd.cjs"
+    }
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.13",
+    "@tailwindcss/vite": "^4.1.1",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/tsconfig": "^0.7.0",
+    "tailwindcss": "^4.1.1",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0",
+    "vue-tsc": "^2.2.4"
+  },
+  "keywords": [
+    "vue 3 otp input",
+    "vue otp input",
+    "vue",
+    "vue 3",
+    "vue composition API",
+    "otp",
+    "input",
+    "otp input",
+    "one-time-password",
+    "one-time password",
+    "one time password",
+    "vue3",
+    "vue 3 otp",
+    "one time password input component built with vue",
+    "otp input component built with vue",
+    "otp input component"
+  ],
+  "license": "MIT"
+}
