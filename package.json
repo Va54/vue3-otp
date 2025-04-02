@@ -50,5 +50,13 @@
     "otp input component built with vue",
     "otp input component"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Va54/vue3-otp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Va54/vue3-otp/issues"
+  },
+  "homepage": "https://github.com/Va54/vue3-otp#readme"
 }
