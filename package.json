@@ -15,21 +15,23 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/vue3-otp-input.js",
-      "require": "./dist/vue3-otp-input.umd.cjs"
+      "import": "./dist/vue3-otp.js",
+      "require": "./dist/vue3-otp.umd.cjs"
     }
   },
   "dependencies": {
     "vue": "^3.5.13"
   },
   "devDependencies": {
-    "@types/node": "^20.12.13",
     "@tailwindcss/vite": "^4.1.1",
+    "@types/node": "^20.12.13",
     "@vitejs/plugin-vue": "^5.2.1",
     "@vue/tsconfig": "^0.7.0",
+    "esbuild": "^0.25.2",
     "tailwindcss": "^4.1.1",
     "typescript": "~5.7.2",
     "vite": "^6.2.0",
+    "vite-plugin-dts": "^4.5.3",
     "vue-tsc": "^2.2.4"
   },
   "keywords": [

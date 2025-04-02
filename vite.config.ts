@@ -1,16 +1,20 @@
-import {defineConfig} from 'vite'
+import {defineConfig} from 'vite';
 import path, {resolve} from "node:path";
-import vue from '@vitejs/plugin-vue'
-import tailwindcss from '@tailwindcss/vite'
+import dts from 'vite-plugin-dts'
 
-// https://vite.dev/config/
+import vue from '@vitejs/plugin-vue';
+import tailwindcss from '@tailwindcss/vite';
+
+
+
 export default defineConfig({
-    plugins: [vue(), tailwindcss()],
+    plugins: [vue(), dts(), tailwindcss()],
     build: {
         lib: {
             entry: resolve(__dirname, "src/index.ts"),
             name: "Vue3Otp",
             formats: ["es", "cjs", "umd"],
+            fileName: (format) => `vue3-otp.${format}.js`
         },
         rollupOptions: {
             external: ["vue"],
@@ -26,4 +30,4 @@ export default defineConfig({
             "@": path.resolve(__dirname, "src"),
         },
     }
-})
+});
