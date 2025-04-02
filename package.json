@@ -1,6 +1,6 @@
 {
   "name": "@va54/vue3-otp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A fully customizable, OTP (one-time password) input component built with Vue 3.x.",
   "author": "Vardan Hayrapetyan <hayrapetyan.vardank@gmail.com>",
   "main": "dist/index.js",
