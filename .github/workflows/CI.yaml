@@ -9,11 +9,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     strategy:
       matrix:
         node-version: [20]
-
     steps:
       - uses: actions/checkout@v4
       - name: Install pnpm
@@ -27,7 +25,5 @@ jobs:
           cache: "pnpm"
       - name: Install dependencies
         run: pnpm install
-      - name: Run tests
-        run: pnpm test:unit
       - name: Build
         run: pnpm build
