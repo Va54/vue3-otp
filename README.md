@@ -13,18 +13,9 @@ NOTE: This image showcases a styled OTP input using Tailwind CSS.
 You can install `vue3-otp` via the terminal:
 
 ```sh
-pnpm i vue3-otp
+pnpm i @va54/vue3-otp
 ```
 
-OR
-
-### Install via CDN
-
-```html
-<script src="https://unpkg.com/vue3-otp"></script>
-```
-
----
 
 ## 📖 Usage
 
