@@ -25,7 +25,7 @@ pnpm i @va54/vue3-otp
 // main.js or main.ts
 import { createApp } from 'vue';
 import App from './App.vue';
-import VOtp from "vue3-otp";
+import VOtp from "@va54/vue3-otp";
 
 const app = createApp(App);
 app.component('v-otp', VOtp);
@@ -37,7 +37,7 @@ app.mount("#app");
 ```vue
 <script setup>
 import { ref } from 'vue';
-import VOtp from "vue3-otp";
+import VOtp from "@va54/vue3-otp";
 
 const otp = ref('');
 </script>
@@ -81,7 +81,7 @@ const otp = ref('');
 ```vue
 <script setup>
 import { ref } from 'vue';
-import VOtp from "vue3-otp";
+import VOtp from "@va54/vue3-otp";
 
 const otp = ref('');
 </script>
@@ -102,5 +102,5 @@ This will render an OTP input with a `-` separator between each digit and apply 
 
 ---
 
-Enjoy using `vue3-otp`! 🚀
+Enjoy using `@va54/vue3-otp`! 🚀
 
